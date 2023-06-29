@@ -1,1 +1,1 @@
-web: python3 -m Adarsh
+web: gunicorn Adarsh:app
